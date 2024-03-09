@@ -31,9 +31,19 @@ textarea {
     display: flex;
     flex:;
 }
+main{
+    display: flex;
+    flex: 5;
+}
 footer{
     justify-content: center;
     text-align: center;
     font-family: 'Franklin Gothic Medium';
-    margin-left: 40%;
+    margin-left: 200px;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+aside{
+    background-color: blue;
+    display: flex;
 }
